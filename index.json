@@ -1,0 +1,100 @@
+{
+  "schema": 1,
+  "generated_at": "2026-11-06T15:39:21Z",
+  "source_repo": "y1-community/sr1-stock-rom",
+  "mirror_repo": "y1-community/sr1-stock-rom-mirror",
+  "title_prefix": "Portable Flashing Package: ",
+  "updater_repo": "y1-community/updater-ce-neo",
+  "platforms": [
+    {
+      "key": "windows",
+      "os": "windows",
+      "arch": "x86-64",
+      "suffix": "-windows.zip",
+      "layout": "sp_flash_tool"
+    },
+    {
+      "key": "windows-arm64",
+      "os": "windows",
+      "arch": "arm64",
+      "suffix": "-windows-arm64.zip",
+      "layout": "sp_flash_tool"
+    },
+    {
+      "key": "linux",
+      "os": "linux",
+      "arch": "x86-64",
+      "suffix": "-linux.zip",
+      "layout": "sp_flash_tool"
+    },
+    {
+      "key": "linux-arm64",
+      "os": "linux",
+      "arch": "arm64",
+      "suffix": "-linux-arm64.zip",
+      "layout": "sp_flash_tool"
+    },
+    {
+      "key": "macos",
+      "os": "macos",
+      "arch": "universal",
+      "suffix": "-macos.zip",
+      "layout": "beside_dmg"
+    }
+  ],
+  "releases": [
+    {
+      "tag": "R1P_V2-V2.05.20251011",
+      "title": "Portable Flashing Package: R1P_V2-V2.05.20251011",
+      "source_title": "R1P_V2-V2.05.20251011",
+      "source_url": "https://github.com/y1-community/sr1-stock-rom/releases/tag/R1P_V2-V2.05.20251011",
+      "published_at": "2026-11-05T04:14:02Z",
+      "prerelease": false,
+      "source_notes": "Original Timmkoo SR1 software **R1P_V2-V2.05.20251011**.\n\n- Model: **SR1** (Timmkoo)\n- Package: `rom_sr1.zip`\n- Build tag: `R1P_V2-V2.05.20251011`\n- Build date: 2025-10-11\n\n## Install\n\n1. Download `rom_sr1.zip` (every numbered volume if the release has more than one, then `cat rom_sr1.zip.* > rom_sr1.zip`).\n2. Unzip it. Keep the scatter file next to the images.\n3. Open SP Flash Tool, choose **Download Only**, load the scatter file from the archive and flash.\n4. Or use Innioasis Updater CE: <https://innioasis.app/guide.html>\n\nThis wipes the player. Back up music and recordings first.\n\n## Files\n\n| File | Size |\n| --- | --- |\n| `rom_sr1.zip` | 933.8 MB |\n| `SHA256SUMS` | 0.0 MB |\n\nFull archive: <https://innioasis.app/firmware.html?model=SR1>",
+      "assets": [
+        {
+          "name": "rom_sr1-windows.zip",
+          "source_asset": "rom_sr1.zip",
+          "platform": "windows",
+          "model": "SR1",
+          "type": "Stock",
+          "size": 1253014003,
+          "sha256": "edd06cf48730b3cdaff1714af879a15347b57ecdd4dc55b630a9620b7dea6be3",
+          "url": "https://github.com/y1-community/sr1-stock-rom-mirror/releases/download/R1P_V2-V2.05.20251011/rom_sr1-windows.zip"
+        },
+        {
+          "name": "rom_sr1-linux.zip",
+          "source_asset": "rom_sr1.zip",
+          "platform": "linux",
+          "model": "SR1",
+          "type": "Stock",
+          "size": 1368857075,
+          "sha256": "6ce483a920f5709f0fa9fd4af2170c0b77595a1a60d8863bc1763f18b723d690",
+          "url": "https://github.com/y1-community/sr1-stock-rom-mirror/releases/download/R1P_V2-V2.05.20251011/rom_sr1-linux.zip"
+        },
+        {
+          "name": "rom_sr1-macos.zip",
+          "source_asset": "rom_sr1.zip",
+          "platform": "macos",
+          "model": "SR1",
+          "type": "Stock",
+          "size": 1225741504,
+          "sha256": "8ee71c2fd52f90931449e9287ae711f6494ba987ab10ec79f70eacc5f8686b36",
+          "url": "https://github.com/y1-community/sr1-stock-rom-mirror/releases/download/R1P_V2-V2.05.20251011/rom_sr1-macos.zip"
+        }
+      ],
+      "original_assets": [
+        "rom_sr1.zip",
+        "SHA256SUMS.R1P_V2-V2.05.20251011"
+      ],
+      "stats_url": "https://github.com/y1-community/sr1-stock-rom-mirror/releases/download/R1P_V2-V2.05.20251011/stats.txt"
+    }
+  ],
+  "source_readme": {
+    "path": "README.md",
+    "source_path": "README.md",
+    "source_name": "README.md",
+    "source_url": "https://github.com/y1-community/sr1-stock-rom/blob/main/README.md",
+    "url": "https://raw.githubusercontent.com/y1-community/sr1-stock-rom-mirror/main/README.md"
+  }
+}
