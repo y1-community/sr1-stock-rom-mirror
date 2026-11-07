@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-06T15:39:21Z",
+  "generated_at": "2026-11-07T19:39:43Z",
   "source_repo": "y1-community/sr1-stock-rom",
   "mirror_repo": "y1-community/sr1-stock-rom-mirror",
   "title_prefix": "Portable Flashing Package: ",
@@ -58,8 +58,8 @@
           "platform": "windows",
           "model": "SR1",
           "type": "Stock",
-          "size": 1253014003,
-          "sha256": "edd06cf48730b3cdaff1714af879a15347b57ecdd4dc55b630a9620b7dea6be3",
+          "size": 1229665922,
+          "sha256": "f52e4603f199bd05e9092e747863c831afda10b326c855858cc19988cd15606b",
           "url": "https://github.com/y1-community/sr1-stock-rom-mirror/releases/download/R1P_V2-V2.05.20251011/rom_sr1-windows.zip"
         },
         {
@@ -69,7 +69,7 @@
           "model": "SR1",
           "type": "Stock",
           "size": 1368857075,
-          "sha256": "6ce483a920f5709f0fa9fd4af2170c0b77595a1a60d8863bc1763f18b723d690",
+          "sha256": "340f1e4d6f2496c55228b91097231f3ba77a6d2f054c0453762d9eca8faf28b2",
           "url": "https://github.com/y1-community/sr1-stock-rom-mirror/releases/download/R1P_V2-V2.05.20251011/rom_sr1-linux.zip"
         },
         {
@@ -79,7 +79,7 @@
           "model": "SR1",
           "type": "Stock",
           "size": 1225741504,
-          "sha256": "8ee71c2fd52f90931449e9287ae711f6494ba987ab10ec79f70eacc5f8686b36",
+          "sha256": "c91362cc70299e73e6203d7112f9b4bce02e11bffcbf6de36d6a7f0a1a6c0dec",
           "url": "https://github.com/y1-community/sr1-stock-rom-mirror/releases/download/R1P_V2-V2.05.20251011/rom_sr1-macos.zip"
         }
       ],
