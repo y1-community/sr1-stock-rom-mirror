@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-08T20:01:07Z",
+  "generated_at": "2026-11-10T21:36:58Z",
   "source_repo": "y1-community/sr1-stock-rom",
   "mirror_repo": "y1-community/sr1-stock-rom-mirror",
   "title_prefix": "Portable Flashing Package: ",
@@ -11,35 +11,48 @@
       "os": "windows",
       "arch": "x86-64",
       "suffix": "-windows.zip",
-      "layout": "sp_flash_tool"
+      "layout": "sp_flash_tool",
+      "legacy": false
     },
     {
       "key": "windows-arm64",
       "os": "windows",
       "arch": "arm64",
       "suffix": "-windows-arm64.zip",
-      "layout": "sp_flash_tool"
+      "layout": "sp_flash_tool",
+      "legacy": false
+    },
+    {
+      "key": "windows-legacy",
+      "os": "windows",
+      "arch": "x86",
+      "suffix": "-windows-legacy.zip",
+      "layout": "sp_flash_tool",
+      "legacy": true
     },
     {
       "key": "linux",
       "os": "linux",
       "arch": "x86-64",
       "suffix": "-linux.zip",
-      "layout": "sp_flash_tool"
+      "layout": "sp_flash_tool",
+      "legacy": false
     },
     {
       "key": "linux-arm64",
       "os": "linux",
       "arch": "arm64",
       "suffix": "-linux-arm64.zip",
-      "layout": "sp_flash_tool"
+      "layout": "sp_flash_tool",
+      "legacy": false
     },
     {
       "key": "macos",
       "os": "macos",
       "arch": "universal",
       "suffix": "-macos.zip",
-      "layout": "beside_dmg"
+      "layout": "beside_dmg",
+      "legacy": false
     }
   ],
   "releases": [
@@ -58,8 +71,8 @@
           "platform": "windows",
           "model": "SR1",
           "type": "Stock",
-          "size": 1187368093,
-          "sha256": "5fad48be8b90a382af478361bc455e6e271af36c59e60f2c7ba5ef5326e2ce48",
+          "size": 1184885374,
+          "sha256": "f7d041b6a5520759e3f6d1e66af6480ced59e9812708e46165e024530589d4ae",
           "url": "https://github.com/y1-community/sr1-stock-rom-mirror/releases/download/R1P_V2-V2.05.20251011/rom_sr1-windows.zip"
         },
         {
@@ -68,9 +81,19 @@
           "platform": "linux",
           "model": "SR1",
           "type": "Stock",
-          "size": 1368857075,
-          "sha256": "a949b82e29957ee0c765ad3371d79e0c394a0866fa108cda6d78aa6476a75023",
+          "size": 1339005728,
+          "sha256": "97ee1696f419336d9fde4cdc29d94612641b30a9f8d348fe78653fb873a9d3d4",
           "url": "https://github.com/y1-community/sr1-stock-rom-mirror/releases/download/R1P_V2-V2.05.20251011/rom_sr1-linux.zip"
+        },
+        {
+          "name": "rom_sr1-linux-arm64.zip",
+          "source_asset": "rom_sr1.zip",
+          "platform": "linux-arm64",
+          "model": "SR1",
+          "type": "Stock",
+          "size": 1163910670,
+          "sha256": "d5aac9a4e940f1afb88b82cc6425b254a926ba8ef44e1db4a5db98a02ef44e60",
+          "url": "https://github.com/y1-community/sr1-stock-rom-mirror/releases/download/R1P_V2-V2.05.20251011/rom_sr1-linux-arm64.zip"
         },
         {
           "name": "rom_sr1-macos.zip",
@@ -78,8 +101,8 @@
           "platform": "macos",
           "model": "SR1",
           "type": "Stock",
-          "size": 1101023752,
-          "sha256": "1cda925fb72c9df81e2e0256e8b69e71cf707919754ef79b8f317ca3b096d0cd",
+          "size": 1098932682,
+          "sha256": "40fb9012ebd04114f500e38dc2711825506e0c8264df1c95ef1984e05e60fb9e",
           "url": "https://github.com/y1-community/sr1-stock-rom-mirror/releases/download/R1P_V2-V2.05.20251011/rom_sr1-macos.zip"
         }
       ],
