@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-11T00:43:23Z",
+  "generated_at": "2026-11-11T01:46:03Z",
   "source_repo": "y1-community/sr1-stock-rom",
   "mirror_repo": "y1-community/sr1-stock-rom-mirror",
   "title_prefix": "Portable Flashing Package: ",
@@ -71,8 +71,8 @@
           "platform": "windows",
           "model": "SR1",
           "type": "Stock",
-          "size": 1184885374,
-          "sha256": "b25c3a2653a81eb2db437e036e5c2ab04e526c72510165f2c7a18f630d5c528c",
+          "size": 1215134212,
+          "sha256": "24175ac70b88916f3023e93938a7f29053dc700661223438d05007c645aecbd4",
           "url": "https://github.com/y1-community/sr1-stock-rom-mirror/releases/download/R1P_V2-V2.05.20251011/rom_sr1-windows.zip"
         },
         {
@@ -82,7 +82,7 @@
           "model": "SR1",
           "type": "Stock",
           "size": 1339005728,
-          "sha256": "b9590791fa19491da175abe1af81c11aff89f8e1d15615408d74b775067de660",
+          "sha256": "42b04ce6c9bf9ad437dc3cbaea9043ab61dbaa2f8271d9cd501942cbfb32bddc",
           "url": "https://github.com/y1-community/sr1-stock-rom-mirror/releases/download/R1P_V2-V2.05.20251011/rom_sr1-linux.zip"
         },
         {
@@ -92,7 +92,7 @@
           "model": "SR1",
           "type": "Stock",
           "size": 1163910670,
-          "sha256": "2df0513d3c6f3145a0548f50c5706263e02799ba89a505f8b28da9ae2e709e66",
+          "sha256": "515a22cb36d8cc5587260cce4577c3c58279ebcd16cb97adfde5022348d0e4a7",
           "url": "https://github.com/y1-community/sr1-stock-rom-mirror/releases/download/R1P_V2-V2.05.20251011/rom_sr1-linux-arm64.zip"
         },
         {
@@ -102,7 +102,7 @@
           "model": "SR1",
           "type": "Stock",
           "size": 1098856525,
-          "sha256": "44c0d4424091d83a55dcc50a7aa37f99f5e652ca98b0edfd65cb302998869830",
+          "sha256": "df67174b9a27dfc296fca5340e3ae004bd23944a2ec44bf75d4610b25c22d053",
           "url": "https://github.com/y1-community/sr1-stock-rom-mirror/releases/download/R1P_V2-V2.05.20251011/rom_sr1-macos.zip"
         }
       ],
