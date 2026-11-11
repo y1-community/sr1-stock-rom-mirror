@@ -1,8 +1,11 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-11T01:46:03Z",
+  "generated_at": "2026-11-11T22:29:49Z",
   "source_repo": "y1-community/sr1-stock-rom",
+  "source_fallback_repo": "ryan-specter/sr1-stock-rom",
   "mirror_repo": "y1-community/sr1-stock-rom-mirror",
+  "mirror_fallback_repo": "ryan-specter/sr1-stock-rom-mirror",
+  "fallback_index_url": "https://raw.githubusercontent.com/ryan-specter/sr1-stock-rom-mirror/main/index.json",
   "title_prefix": "Portable Flashing Package: ",
   "updater_repo": "y1-community/updater-ce-neo",
   "platforms": [
@@ -47,6 +50,14 @@
       "legacy": false
     },
     {
+      "key": "linux-legacy",
+      "os": "linux",
+      "arch": "x86",
+      "suffix": "-linux-legacy.zip",
+      "layout": "sp_flash_tool",
+      "legacy": true
+    },
+    {
       "key": "macos",
       "os": "macos",
       "arch": "universal",
@@ -61,6 +72,7 @@
       "title": "Portable Flashing Package: R1P_V2-V2.05.20251011",
       "source_title": "R1P_V2-V2.05.20251011",
       "source_url": "https://github.com/y1-community/sr1-stock-rom/releases/tag/R1P_V2-V2.05.20251011",
+      "source_fallback_url": "https://github.com/ryan-specter/sr1-stock-rom/releases/tag/R1P_V2-V2.05.20251011",
       "published_at": "2026-11-05T04:14:02Z",
       "prerelease": false,
       "source_notes": "Original Timmkoo SR1 software **R1P_V2-V2.05.20251011**.\n\n- Model: **SR1** (Timmkoo)\n- Package: `rom_sr1.zip`\n- Build tag: `R1P_V2-V2.05.20251011`\n- Build date: 2025-10-11\n\n## Install\n\n1. Download `rom_sr1.zip` (every numbered volume if the release has more than one, then `cat rom_sr1.zip.* > rom_sr1.zip`).\n2. Unzip it. Keep the scatter file next to the images.\n3. Open SP Flash Tool, choose **Download Only**, load the scatter file from the archive and flash.\n4. Or use Innioasis Updater CE: <https://innioasis.app/guide.html>\n\nThis wipes the player. Back up music and recordings first.\n\n## Files\n\n| File | Size |\n| --- | --- |\n| `rom_sr1.zip` | 933.8 MB |\n| `SHA256SUMS` | 0.0 MB |\n\nFull archive: <https://innioasis.app/firmware.html?model=SR1>",
@@ -72,8 +84,20 @@
           "model": "SR1",
           "type": "Stock",
           "size": 1215134212,
-          "sha256": "24175ac70b88916f3023e93938a7f29053dc700661223438d05007c645aecbd4",
-          "url": "https://github.com/y1-community/sr1-stock-rom-mirror/releases/download/R1P_V2-V2.05.20251011/rom_sr1-windows.zip"
+          "sha256": "bc95c73ba7ec74a4ac05118ca75849a3500753b7a5898a962b509dd58504549a",
+          "url": "https://github.com/y1-community/sr1-stock-rom-mirror/releases/download/R1P_V2-V2.05.20251011/rom_sr1-windows.zip",
+          "fallback_url": "https://github.com/ryan-specter/sr1-stock-rom-mirror/releases/download/R1P_V2-V2.05.20251011/rom_sr1-windows.zip"
+        },
+        {
+          "name": "rom_sr1-windows-legacy.zip",
+          "source_asset": "rom_sr1.zip",
+          "platform": "windows-legacy",
+          "model": "SR1",
+          "type": "Stock",
+          "size": 1053983799,
+          "sha256": "9b0b1fae042ac76c36855a10f28d2beb28f36847009828236f2179d3444b4210",
+          "url": "https://github.com/y1-community/sr1-stock-rom-mirror/releases/download/R1P_V2-V2.05.20251011/rom_sr1-windows-legacy.zip",
+          "fallback_url": "https://github.com/ryan-specter/sr1-stock-rom-mirror/releases/download/R1P_V2-V2.05.20251011/rom_sr1-windows-legacy.zip"
         },
         {
           "name": "rom_sr1-linux.zip",
@@ -82,8 +106,9 @@
           "model": "SR1",
           "type": "Stock",
           "size": 1339005728,
-          "sha256": "42b04ce6c9bf9ad437dc3cbaea9043ab61dbaa2f8271d9cd501942cbfb32bddc",
-          "url": "https://github.com/y1-community/sr1-stock-rom-mirror/releases/download/R1P_V2-V2.05.20251011/rom_sr1-linux.zip"
+          "sha256": "1d0d55f532dc3cb6621a8ee347f1302e502702dd5ac9762c0445cdd2abe02c84",
+          "url": "https://github.com/y1-community/sr1-stock-rom-mirror/releases/download/R1P_V2-V2.05.20251011/rom_sr1-linux.zip",
+          "fallback_url": "https://github.com/ryan-specter/sr1-stock-rom-mirror/releases/download/R1P_V2-V2.05.20251011/rom_sr1-linux.zip"
         },
         {
           "name": "rom_sr1-linux-arm64.zip",
@@ -92,8 +117,20 @@
           "model": "SR1",
           "type": "Stock",
           "size": 1163910670,
-          "sha256": "515a22cb36d8cc5587260cce4577c3c58279ebcd16cb97adfde5022348d0e4a7",
-          "url": "https://github.com/y1-community/sr1-stock-rom-mirror/releases/download/R1P_V2-V2.05.20251011/rom_sr1-linux-arm64.zip"
+          "sha256": "f05f4ea0523f92589caee31b3f32007d7a2a6c9ef5f704d38f54f7ddba535e72",
+          "url": "https://github.com/y1-community/sr1-stock-rom-mirror/releases/download/R1P_V2-V2.05.20251011/rom_sr1-linux-arm64.zip",
+          "fallback_url": "https://github.com/ryan-specter/sr1-stock-rom-mirror/releases/download/R1P_V2-V2.05.20251011/rom_sr1-linux-arm64.zip"
+        },
+        {
+          "name": "rom_sr1-linux-legacy.zip",
+          "source_asset": "rom_sr1.zip",
+          "platform": "linux-legacy",
+          "model": "SR1",
+          "type": "Stock",
+          "size": 1052398082,
+          "sha256": "9d31a6eebbda8db9ee0c048c3af3ea894d15437a71071343230db5c3deb20694",
+          "url": "https://github.com/y1-community/sr1-stock-rom-mirror/releases/download/R1P_V2-V2.05.20251011/rom_sr1-linux-legacy.zip",
+          "fallback_url": "https://github.com/ryan-specter/sr1-stock-rom-mirror/releases/download/R1P_V2-V2.05.20251011/rom_sr1-linux-legacy.zip"
         },
         {
           "name": "rom_sr1-macos.zip",
@@ -102,8 +139,9 @@
           "model": "SR1",
           "type": "Stock",
           "size": 1098856525,
-          "sha256": "df67174b9a27dfc296fca5340e3ae004bd23944a2ec44bf75d4610b25c22d053",
-          "url": "https://github.com/y1-community/sr1-stock-rom-mirror/releases/download/R1P_V2-V2.05.20251011/rom_sr1-macos.zip"
+          "sha256": "3d855a0f6251c2f67fe582716d935a904b54a2241c9c1f4e439f0effdf0c4f97",
+          "url": "https://github.com/y1-community/sr1-stock-rom-mirror/releases/download/R1P_V2-V2.05.20251011/rom_sr1-macos.zip",
+          "fallback_url": "https://github.com/ryan-specter/sr1-stock-rom-mirror/releases/download/R1P_V2-V2.05.20251011/rom_sr1-macos.zip"
         }
       ],
       "original_assets": [
