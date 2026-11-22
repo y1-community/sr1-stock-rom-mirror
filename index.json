@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-21T11:51:50Z",
+  "generated_at": "2026-11-22T12:04:54Z",
   "source_repo": "y1-community/sr1-stock-rom",
   "source_fallback_repo": "ryan-specter/sr1-stock-rom",
   "mirror_repo": "y1-community/sr1-stock-rom-mirror",
@@ -105,8 +105,8 @@
           "platform": "linux",
           "model": "SR1",
           "type": "Stock",
-          "size": 1280655424,
-          "sha256": "a3d55a26ce432cdcc94ce48e04937e9f4d27ac4d5f4d1d4b4de183931bed471c",
+          "size": 1280728093,
+          "sha256": "0917126b9ea809453e0ca29adbcd116e2758f3951d0b9ff8ed3ffab1522d7233",
           "url": "https://github.com/y1-community/sr1-stock-rom-mirror/releases/download/R1P_V2-V2.05.20251011/rom_sr1-linux.zip",
           "fallback_url": "https://github.com/ryan-specter/sr1-stock-rom-mirror/releases/download/R1P_V2-V2.05.20251011/rom_sr1-linux.zip"
         },
@@ -116,8 +116,8 @@
           "platform": "linux-arm64",
           "model": "SR1",
           "type": "Stock",
-          "size": 1105562145,
-          "sha256": "13d48114d637e30d2c2dff7c9d94ab215e2138118a7cc629ec85a1d993cded1f",
+          "size": 1105632644,
+          "sha256": "20ecd522f84cd600bd412e5627ddf81c743f146d558747fb1b8d59cc103b6e42",
           "url": "https://github.com/y1-community/sr1-stock-rom-mirror/releases/download/R1P_V2-V2.05.20251011/rom_sr1-linux-arm64.zip",
           "fallback_url": "https://github.com/ryan-specter/sr1-stock-rom-mirror/releases/download/R1P_V2-V2.05.20251011/rom_sr1-linux-arm64.zip"
         },
@@ -138,8 +138,8 @@
           "platform": "macos",
           "model": "SR1",
           "type": "Stock",
-          "size": 1088383959,
-          "sha256": "b03b0ff22d70002b34744c5e6151c7f9d62d4598a62081e8563045750ea635aa",
+          "size": 1088238688,
+          "sha256": "d126894b4f633e1055e922eb682b95a1c04d6c3f3a7e5e2e1ea3b0186ab89fc7",
           "url": "https://github.com/y1-community/sr1-stock-rom-mirror/releases/download/R1P_V2-V2.05.20251011/rom_sr1-macos.zip",
           "fallback_url": "https://github.com/ryan-specter/sr1-stock-rom-mirror/releases/download/R1P_V2-V2.05.20251011/rom_sr1-macos.zip"
         }
