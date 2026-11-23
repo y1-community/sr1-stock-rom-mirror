@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-22T21:21:30Z",
+  "generated_at": "2026-11-23T02:08:27Z",
   "source_repo": "y1-community/sr1-stock-rom",
   "source_fallback_repo": "ryan-specter/sr1-stock-rom",
   "mirror_repo": "y1-community/sr1-stock-rom-mirror",
@@ -84,7 +84,7 @@
           "model": "SR1",
           "type": "Stock",
           "size": 1168890765,
-          "sha256": "0ee0484220086ea4dde6f7357cf85ce45b3bdfd0f4cd5da1f8e19ff1ef10fdd0",
+          "sha256": "2e5ea8b412deaaa516d5caf7cd61fcd14b0640c55ad611bd04391bf6f4400a3e",
           "url": "https://github.com/y1-community/sr1-stock-rom-mirror/releases/download/R1P_V2-V2.05.20251011/rom_sr1-windows.zip",
           "fallback_url": "https://github.com/ryan-specter/sr1-stock-rom-mirror/releases/download/R1P_V2-V2.05.20251011/rom_sr1-windows.zip"
         },
@@ -95,7 +95,7 @@
           "model": "SR1",
           "type": "Stock",
           "size": 1053983799,
-          "sha256": "0ba700ffe1f48fe2bb20cb0d1679cd2e6334a54e8c4cb67efe8081a5e9ce2365",
+          "sha256": "e44a26008802b57e2fc7871ede26fdb63a1828a59f2dab8b6872525942e7fef2",
           "url": "https://github.com/y1-community/sr1-stock-rom-mirror/releases/download/R1P_V2-V2.05.20251011/rom_sr1-windows-legacy.zip",
           "fallback_url": "https://github.com/ryan-specter/sr1-stock-rom-mirror/releases/download/R1P_V2-V2.05.20251011/rom_sr1-windows-legacy.zip"
         },
@@ -106,7 +106,7 @@
           "model": "SR1",
           "type": "Stock",
           "size": 1280944364,
-          "sha256": "d9995292291b0ced46642febdce8188468732a70cdadcf463e14d7e4d7b83c40",
+          "sha256": "fb8643c09d4660733955cb677f1fa3094c7d4604068459633d8d92bf9f3411cd",
           "url": "https://github.com/y1-community/sr1-stock-rom-mirror/releases/download/R1P_V2-V2.05.20251011/rom_sr1-linux.zip",
           "fallback_url": "https://github.com/ryan-specter/sr1-stock-rom-mirror/releases/download/R1P_V2-V2.05.20251011/rom_sr1-linux.zip"
         },
@@ -117,7 +117,7 @@
           "model": "SR1",
           "type": "Stock",
           "size": 1105851126,
-          "sha256": "a2a1a66807eb05cfed2d6be87c474930acd7bf638abae169010159d66a3668fb",
+          "sha256": "3c2841ccd606aa2ba1f3ef73d234e3fdaaf3263bdf0de41ec6fc467a39bb9e8f",
           "url": "https://github.com/y1-community/sr1-stock-rom-mirror/releases/download/R1P_V2-V2.05.20251011/rom_sr1-linux-arm64.zip",
           "fallback_url": "https://github.com/ryan-specter/sr1-stock-rom-mirror/releases/download/R1P_V2-V2.05.20251011/rom_sr1-linux-arm64.zip"
         },
@@ -128,7 +128,7 @@
           "model": "SR1",
           "type": "Stock",
           "size": 1052398082,
-          "sha256": "e0d063cf7655be695653f2e5ea5dbe8356af2c586e020320f0d78531c3a78a27",
+          "sha256": "1b745ca0c1d5e528ef218e06a39d4051f05139d47e6905a0f21693a57a5f48a2",
           "url": "https://github.com/y1-community/sr1-stock-rom-mirror/releases/download/R1P_V2-V2.05.20251011/rom_sr1-linux-legacy.zip",
           "fallback_url": "https://github.com/ryan-specter/sr1-stock-rom-mirror/releases/download/R1P_V2-V2.05.20251011/rom_sr1-linux-legacy.zip"
         },
@@ -139,7 +139,7 @@
           "model": "SR1",
           "type": "Stock",
           "size": 1088400662,
-          "sha256": "31c19219770d3dc55808c5f540def850d7bf51d4e0770265a569b295d360559d",
+          "sha256": "0a7dd61e008113c4bc148093eda64d5da16cd826b2994f9921b5bf75b47a61ad",
           "url": "https://github.com/y1-community/sr1-stock-rom-mirror/releases/download/R1P_V2-V2.05.20251011/rom_sr1-macos.zip",
           "fallback_url": "https://github.com/ryan-specter/sr1-stock-rom-mirror/releases/download/R1P_V2-V2.05.20251011/rom_sr1-macos.zip"
         }
